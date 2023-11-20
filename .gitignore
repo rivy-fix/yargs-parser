@@ -2,8 +2,11 @@
 .nyc_output
 node_modules
 .DS_Store
-package-lock.json
 ./test/fixtures/package.json
 coverage
 build
 example.*
+
+#
+package-lock.json
+!.deps-lock/package-lock.json
