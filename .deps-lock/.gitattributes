@@ -1,0 +1,5 @@
+# treat generated artifacts as binary by default
+# * limits worthless wall-of-text diffs and avoids CRLF/LF conversion issues
+# * note: use `git diff --text ...` or `git log --text ...` to override and show differences as text
+*   binary
+.gitattributes !binary
